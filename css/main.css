@@ -76,9 +76,25 @@ nav > div > a{
 .star-dark{
   color: #2C3E50;
 }
-
-h2{
-  color: #333;
+footer i{
+  width: 45px;
+  height: 30px;
+  border: 2px solid #FFF;
+  border-radius: 100%;
+  margin: 5px;
+  text-align: center;
+  padding-top: 15px;
+}
+footer i:hover{
+  color: #18bc9c;
+  background-color: white;
+  cursor: pointer;
+}
+footer p{
+  font-size: 20px;
+}
+footer h2{
+  margin-bottom:40px;
 }
 footer{
   color: white;
@@ -87,10 +103,25 @@ footer{
 }
 .footer_above{
   background-color: #2C3E50;
-
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  height: 250px;
+  padding: 0 6%;
 }
 .footer_bellow{
   background-color: #233140;
   padding: 10px;
   text-align: center;
+}
+.col-4 p a{
+  color: #18bc9c;
+  text-decoration: none;
+}
+.col-4 p a:hover{
+  text-decoration: underline;
+}
+#freelancer{
+  margin-top: 40px;
 }
