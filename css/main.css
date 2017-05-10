@@ -80,9 +80,17 @@ nav > div > a{
 h2{
   color: #333;
 }
+footer{
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
 .footer_above{
   background-color: #2C3E50;
+
 }
 .footer_bellow{
   background-color: #233140;
+  padding: 10px;
+  text-align: center;
 }
