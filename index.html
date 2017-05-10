@@ -4,12 +4,87 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="/css/main.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/common.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
 	<title>Freelancer</title>
 </head>
 <body>
+	<header>
+		<nav>
+			<div class="logo">
+				<a href="#" class="text-uppercase">start bootstrap</a>
+			</div>
+			<div class="menu">
+				<a href="#" class="text-uppercase">portfolio</a>
+				<a href="#" class="text-uppercase">about</a>
+				<a href="#" class="text-uppercase">contact</a>
+			</div>
+		</nav>
+	</header>
+	<section class="bg-jade container-jade" id="start">
+		<img src="assets/images/profile.png" alt="">
+		<h1 class="title">START BOOTSTRAP</h1>
+		<span class="flex">
+			<hr class="linea"></hr>
+			<i class="fa fa-star"></i>
+			<hr class="linea"></hr>
+		</span>
+		<span>Web Developer - Graphic Artist - User Experience Designer</span>
+	</section>
+	<section id="portfolio">
+		<h1 class="title h1-gris">PORTFOLIO</h1>
+		<span class="flex size-star">
+			<hr class="line-dark"></hr>
+			<i class="star-dark fa fa-star"></i>
+			<hr class="line-dark"></hr>
+		</span>
+		<div class="galery">
+
+		</div>
+	</section>
+	<section class="bg-jade container-jade" id="about">
+		<h1 class="title">ABOUT</h1>
+		<span class="flex size-star">
+			<hr class="linea"></hr>
+			<i class="fa fa-star"></i>
+			<hr class="linea"></hr>
+		</span>
+		<div class="flex">
+			<p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+			<p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+		</div>
+		<div class="download">
+			<a href="#">Download Theme</a>
+		</div>
+	</section>
+	<section id="contact">
+		<h1 class="title h1-gris">CONTACT ME</h1>
+		<span class="flex size-star">
+			<hr class="line-dark"></hr>
+			<i class="star-dark fa fa-star"></i>
+			<hr class="line-dark"></hr>
+		</span>
+
+	</section>
+	<footer>
+		<div></div>
+		<div>
+			<p> Copyright © Your Website 2016</p>
+		</div>
+
+	</footer>
+	<!-- ventana modal : https://www.w3schools.com/w3css/w3css_modal.asp -->
+	<div id="modal01" class="modal" onclick="this.style.display='none'" style="display:none;">
+		<div class="modal-content">
+			<div class="modal-header">
+				<span  class="button_x">X</span>
+			</div>
+			<img id="img01" class="modal-picture">
+		</div>
+	</div>
 <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>

@@ -1,3 +1,88 @@
-*{
-  font-family: 'Lato', sans-serif;
+nav{
+  height: 100px;
+  background-color: #2C3E50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6%;
+  font-family: 'Montserrat', sans-serif;
+}
+nav > div > a{
+  color: white;
+  text-decoration: none;
+}
+.logo{
+  font-size: 25px;
+  font-weight: 800;
+}
+.menu{
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  font-weight: bold;
+  font-size: 13px;
+}
+.container-jade{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6% 0 4% 0;
+}
+.title{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 2.5em;
+}
+#start{
+  height: 500px;
+}
+#start h1{
+  font-size: 4em;
+}
+#start span{
+  font-size: 25px;
+  margin: 10px;
+}
+.size-star{
+  font-size: 25px;
+}
+.linea{
+  border: 2px solid white;
+  width: 100px;
+  margin: 11px 5px;
+}
+.line-dark{
+  border: 2px solid #2C3E50;
+  width: 100px;
+  margin: 11px 5px;
+}
+#portfolio{
+  height: 500px;
+}
+.h1-gris{
+  color: #333;
+}
+#about{
+  height: 400px;
+  padding-left: 18%;
+  padding-right: 18%;
+}
+#about div p{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+.star-dark{
+  color: #2C3E50;
+}
+
+h2{
+  color: #333;
+}
+.footer_above{
+  background-color: #2C3E50;
+}
+.footer_bellow{
+  background-color: #233140;
 }
