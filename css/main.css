@@ -18,7 +18,6 @@ nav > div > a{
 }
 .header-in{
   height: 70px;
-
 }
 .logo{
   font-size: 25px;
@@ -70,10 +69,22 @@ nav > div > a{
   margin: 11px 5px;
 }
 #portfolio{
-  height: 500px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.galery{
+  text-align: center;
 }
 .h1-gris{
   color: #333;
+}
+.picture{
+  width: 25%;
+  height: 25%;
+  margin: 20px;
+  cursor: pointer;
 }
 #about{
   height: 400px;
@@ -85,6 +96,19 @@ nav > div > a{
   margin-left: 20px;
   margin-right: 20px;
   font-size: 20px;
+}
+.download{
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+#about a:hover{
+  color: #18bc9c;
+  background-color: white;
 }
 .star-dark{
   color: #2C3E50;
